@@ -1,0 +1,2 @@
+1.group分组，排序，maxBy取最大
+2.spark app代码抽离成一个结构体
