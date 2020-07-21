@@ -26,7 +26,7 @@ object TableTypeTest {
 
     spark.catalog.listTables().show()
 
-    //1：外部表
+    //1：外部表  第二参数是获取数据路径？ 存储路径，如果已经存在，是不是就当然数据源读取？ DML语句就会作为存储路径？
     spark.catalog.createTable("trackerSession_other", s"${BASE_PATH}/trackerSession")
     spark.sql("select * from trackerSession_other").show()
 
@@ -51,7 +51,7 @@ object TableTypeTest {
     val sessionDf = spark.read.parquet(s"${BASE_PATH}/trackerSession")
     //3.1：session级别的视图
     //第一种创建临时视图的方式
-    sessionDf.createTempView("trackerSession")
+    sessionDf.createTempView("trackerSession")   //如果已经存在就会报错，  采用下面的方式更合理
     sessionDf.createOrReplaceTempView("trackerSession")
     val sessionRecords = spark.sql("select * from trackerSession")
     sessionRecords.show()

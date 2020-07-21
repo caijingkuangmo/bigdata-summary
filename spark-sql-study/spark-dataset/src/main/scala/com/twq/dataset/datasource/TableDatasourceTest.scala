@@ -6,7 +6,7 @@ import org.apache.spark.sql.SparkSession
 /**
   * Created by tangweiqun on 2017/10/11.
   */
-object TableDatasourceTest {
+object  TableDatasourceTest {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession
       .builder()
@@ -14,7 +14,7 @@ object TableDatasourceTest {
       .master("local")
       .getOrCreate()
 
-    println(spark.conf.get("spark.sql.catalogImplementation"))
+    println(spark.conf.get("spark.sql.catalogImplementation"))  //在spark sql中 table默认是有hive管理的
     spark.catalog.listTables().show()
 
     //1: 将json文件数据保存到spark的table中

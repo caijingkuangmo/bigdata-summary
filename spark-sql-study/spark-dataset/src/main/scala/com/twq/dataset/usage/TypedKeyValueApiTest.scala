@@ -20,7 +20,7 @@ object TypedKeyValueApiTest {
     grouped.keys.show()
 
     val ds = Seq(("a", 10), ("a", 20), ("b", 1), ("b", 2), ("c", 1)).toDS()
-    val keyValueGroupedDataset = ds.groupByKey(_._1)
+    val keyValueGroupedDataset = ds.groupByKey(_._1)  //结构：DataSet[String,[String, Int]]
     val agged = keyValueGroupedDataset.mapGroups { case (key, iter) => (key, iter.map(_._2).sum) }
     agged.show()
 
@@ -29,12 +29,12 @@ object TypedKeyValueApiTest {
     }
     aggedFlatMapGroup.show()
 
-    val keyValueMapValue = keyValueGroupedDataset.mapValues(_._2)
+    val keyValueMapValue = keyValueGroupedDataset.mapValues(_._2)//结构：DataSet[String, Int]
     val aggedMapValue = keyValueMapValue.mapGroups { case (key, iter) => (key, iter.sum) }
     aggedMapValue.show()
 
     val strDS = Seq("abc", "xyz", "hello").toDS()
-    val aggedReduce = strDS.groupByKey(_.length).reduceGroups(_ + _)
+    val aggedReduce = strDS.groupByKey(_.length).reduceGroups(_ + _)  //两个的效果  相当于reduceByKey
     aggedReduce.show()
 
     spark.stop()
