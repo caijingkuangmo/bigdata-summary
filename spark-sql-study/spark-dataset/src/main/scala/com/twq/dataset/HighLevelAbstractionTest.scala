@@ -73,8 +73,8 @@ object HighLevelAbstractionTest {
     sessionDS.groupByKey(_.cookie_label)
 
     //处理非结构化数据
-    spark.sparkContext.sequenceFile("")
-    spark.sparkContext.textFile("")
+//    spark.sparkContext.sequenceFile("")
+//    spark.sparkContext.textFile("")
 
     spark.stop()
   }

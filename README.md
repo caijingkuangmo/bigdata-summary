@@ -6,6 +6,7 @@ scala，spark.....
 	1.会话切割
 	2.spark去重
 	3.TopN
+	4.计程车载客等待时间分析
 
 二、spark-submit-study：教你如何更好的提交spark程序(spark-submit参数详解)
 	博客学习地址：https://www.cnblogs.com/xinsiwei18/articles/13253056.html
