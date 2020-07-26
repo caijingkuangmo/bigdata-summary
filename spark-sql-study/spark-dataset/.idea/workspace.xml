@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc02b9d0-c6d6-454e-973a-e8351c36b7fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/homework/user.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/twq/dataset/homework/UserApp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/twq/dataset/HighLevelAbstractionTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/twq/dataset/HighLevelAbstractionTest.scala" afterDir="false" />
-    </list>
+    <list default="true" id="dc02b9d0-c6d6-454e-973a-e8351c36b7fd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/dataset/datasource/partition/FilePartitionTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -172,7 +166,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="19" />
     <option name="y" value="40" />
     <option name="width" value="1908" />
@@ -332,7 +326,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../spark-flight-analysis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spark-streaming-study/spark-streaming-basic" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20496324" />
@@ -385,7 +379,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="40" width="1908" height="987" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -712,7 +705,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/dataset/datasource/partition/FilePartitionTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
         </state>
       </provider>
     </entry>
