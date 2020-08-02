@@ -20,15 +20,15 @@ import org.apache.spark.util.IntParam
   * * bin/flume-ng agent -n agent1 -c conf -f conf/flume-conf.properties
   *
   * 2、启动Spark Streaming应用
-  * spark-submit --class com.twq.streaming.flume.FlumeEventCountPushBased \
-  * --master spark://master:7077 \
-  * --deploy-mode client \
-  * --driver-memory 512m \
-  * --executor-memory 512m \
-  * --total-executor-cores 4 \
-  * --executor-cores 2 \
-  * /home/hadoop-twq/spark-course/streaming/spark-streaming-datasource-1.0-SNAPSHOT-jar-with-dependencies.jar \
-  *172.26.232.97 44446
+  spark-submit --class com.twq.streaming.flume.FlumeEventCountPushBased \
+   --master spark://master:7077 \
+   --deploy-mode client \
+   --driver-memory 512m \
+   --executor-memory 512m \
+   --total-executor-cores 4 \
+   --executor-cores 2 \
+   /home/hadoop-laoliu/spark-streaming-datasource-1.0-SNAPSHOT-jar-with-dependencies.jar \
+  192.168.175.131 44446
   **
   *3、在slave1上 telnet slave1 44445 发送消息
  */

@@ -71,6 +71,20 @@ object PageViewStream {
     // 且将每一行的字符串转换成PageView对象
     val pageViews = messages.map { case (_, value) => PageView.fromString(value) }
 
+    //homework：每个3秒中统计前50秒内每一个url的访问错误数
+    pageViews.window(Seconds(50), Seconds(3))
+      .filter(_.status != 200)
+      .map(view => (view.url, 1))
+      .reduceByKey(_+_)
+
+    //homework：每个2秒中统计前15秒内有多少个用户访问了url： http://foo.com/
+    pageViews.window(Seconds(15), Seconds(2))
+      .filter(_.url == " http://foo.com/")
+      .map(view => (view.userID, 1))
+      .groupByKey()
+      .count()
+
+
     // 每隔2秒统计前15秒内有多少活跃用户
     val activeUserCount = pageViews.window(Seconds(30), Seconds(5))
       .map(view => (view.userID, 1))

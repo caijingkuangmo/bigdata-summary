@@ -1,0 +1,22 @@
+ ## ���� sources��channels �Լ� sinks
+agent1.sources = netcatSrc
+agent1.channels = memoryChannel
+agent1.sinks = sparkSink
+
+## netcatSrc ������
+agent1.sources.netcatSrc.type = netcat
+agent1.sources.netcatSrc.bind = localhost
+agent1.sources.netcatSrc.port = 44445
+
+## avroSink ������
+agent1.sinks.sparkSink.type = org.apache.spark.streaming.flume.sink.SparkSink
+agent1.sinks.sparkSink.hostname = master
+agent1.sinks.sparkSink.port = 44446
+
+## memoryChannel ������
+agent1.channels.memoryChannel.type = memory
+agent1.channels.memoryChannel.capacity = 100
+
+## ͨ�� memoryChannel ���� netcatSrc �� sparkSink
+agent1.sources.netcatSrc.channels = memoryChannel
+agent1.sinks.sparkSink.channel = memoryChannel

@@ -53,7 +53,6 @@ object NetworkWordCountForeachRDD {
 
     ssc.stop(false)
 
-
     //将结果保存到Mysql(二)
     wordCounts.foreachRDD { (rdd, time) =>
       rdd.foreach { record =>

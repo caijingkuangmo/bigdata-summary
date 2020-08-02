@@ -49,11 +49,11 @@ object KafkaWordCount {
       "zookeeper.connection.timeout.ms" -> "10000",
       "auto.offset.reset" -> "largest")//smallest
 
-    val numStreams = 3
+    val numStreams = 3  //注意  多个 Receiver core资源分配，一个Receiver需要分配一个core
     val kafkaStreams = (1 to numStreams).map { _ =>
       KafkaUtils.createStream[String, String, StringDecoder, StringDecoder](
         ssc, kafkaParams, topicMap, StorageLevel.MEMORY_AND_DISK_SER_2) }
-    val unifiedStream = ssc.union(kafkaStreams)
+    val unifiedStream = ssc.union(kafkaStreams)   //创建多个Receiver
 
     val kafkaDStream = KafkaUtils.createStream[String, String, StringDecoder, StringDecoder](
       ssc, kafkaParams, topicMap, StorageLevel.MEMORY_AND_DISK_SER_2)

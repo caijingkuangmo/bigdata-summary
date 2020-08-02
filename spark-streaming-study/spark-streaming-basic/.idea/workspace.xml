@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a02737e-f39c-4d57-b8c1-816d3cb4ee38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spark-streaming编程模型.pptx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flume_kafka_spark-streaming/spark-streaming-datasource/flume_pull.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flume_kafka_spark-streaming/spark-streaming-datasource/flume_push.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flume_kafka_spark-streaming/kafka-basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flume_kafka_spark-streaming/kafka-basic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flume_kafka_spark-streaming/spark-streaming-datasource/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flume_kafka_spark-streaming/spark-streaming-datasource/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flume_kafka_spark-streaming/spark-streaming-datasource/src/main/scala/com/twq/streaming/flume/FlumeEventCountPushBased.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../flume_kafka_spark-streaming/spark-streaming-datasource/src/main/scala/com/twq/streaming/flume/FlumeEventCountPushBased.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flume_kafka_spark-streaming/spark-streaming-datasource/src/main/scala/com/twq/streaming/kafka/KafkaWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../flume_kafka_spark-streaming/spark-streaming-datasource/src/main/scala/com/twq/streaming/kafka/KafkaWordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flume_kafka_spark-streaming/spark-streaming-datasource/src/main/scala/com/twq/streaming/kafka/PageViewStream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../flume_kafka_spark-streaming/spark-streaming-datasource/src/main/scala/com/twq/streaming/kafka/PageViewStream.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/twq/streaming/output/NetworkWordCountForeachRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/twq/streaming/output/NetworkWordCountForeachRDD.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,20 +20,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/LocalNetworkWordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state>
               <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding>
                 <element signature="e#27#71#0" expanded="true" />
@@ -37,46 +37,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/TransformAPITest.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/receiver/QueueStream.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="47" column="39" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="39" />
+            <state relative-caret-position="-17">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/WindowAPITest.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/receiver/HdfsFileStream.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="-306">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/ReduceByKeyAndWindowAPITest.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/receiver/CustomReceiver.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="44" column="35" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/UpdateStateByKeyAPITest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/MapWithStateAPITest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+            <state relative-caret-position="-999">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -84,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/output/NetworkWordCountHDFS.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
+            <state relative-caret-position="726">
               <caret line="46" column="40" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="40" />
             </state>
           </provider>
@@ -93,8 +75,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/output/NetworkWordCountForeachRDDDataFrame.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-657">
+            <state relative-caret-position="726">
               <caret line="36" column="42" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/output/NetworkWordCountForeachRDD.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -102,8 +93,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/pageview/PageViewStream.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-213">
-              <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="495">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/NetworkWordCountDetail.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-207">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/NetworkWordCount.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-306">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -119,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/UpdateStateByKeyAPITest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/MapWithStateAPITest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/twq/streaming/pageview/PageViewStream.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/twq/streaming/output/NetworkWordCountForeachRDD.scala" />
       </list>
     </option>
   </component>
@@ -152,11 +162,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="280" />
-    <option name="y" value="216" />
-    <option name="width" value="1908" />
-    <option name="height" value="987" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -164,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -182,6 +193,21 @@
               <item name="spark-streaming-basic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-streaming-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-streaming-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-streaming-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-streaming-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark-streaming-basic" type="b2602c69:ProjectViewProjectNode" />
@@ -216,11 +242,48 @@
               <item name="streaming" type="462c0819:PsiDirectoryNode" />
               <item name="pageview" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spark-streaming-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-streaming-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="pageview" type="462c0819:PsiDirectoryNode" />
+              <item name="PageViewGenerator.scala" type="6117b065:FileNode" />
+            </path>
+            <path>
+              <item name="spark-streaming-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-streaming-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-streaming-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-streaming-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-streaming-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-streaming-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="CustomReceiver.scala" type="6117b065:FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,14 +321,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="280" y="216" width="1908" height="987" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23564464" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21771611" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -291,9 +355,58 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/TransformAPITest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/WindowAPITest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/ReduceByKeyAndWindowAPITest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/UpdateStateByKeyAPITest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/MapWithStateAPITest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1419">
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/NetworkWordCountDetail.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/NetworkWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/LocalNetworkWordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state>
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding>
             <element signature="e#27#71#0" expanded="true" />
@@ -301,59 +414,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/TransformAPITest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/receiver/QueueStream.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="47" column="39" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="39" />
+        <state relative-caret-position="-17">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/WindowAPITest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/receiver/HdfsFileStream.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="-306">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/ReduceByKeyAndWindowAPITest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/receiver/CustomReceiver.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/UpdateStateByKeyAPITest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/process/MapWithStateAPITest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+        <state relative-caret-position="-999">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/output/NetworkWordCountHDFS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
+        <state relative-caret-position="726">
           <caret line="46" column="40" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/output/NetworkWordCountForeachRDDDataFrame.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-657">
+        <state relative-caret-position="726">
           <caret line="36" column="42" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/output/NetworkWordCountForeachRDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/streaming/pageview/PageViewStream.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        <state relative-caret-position="495">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
