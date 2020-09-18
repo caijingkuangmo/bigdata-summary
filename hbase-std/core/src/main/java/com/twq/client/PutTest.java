@@ -38,7 +38,7 @@ public class PutTest {
         Put put2 = new Put(Bytes.toBytes("row-124"));
         put2.addColumn(Bytes.toBytes(AdminTest.CF_DEFAULT), null, 1, Bytes.toBytes("value-124"));
         put2.addColumn(Bytes.toBytes(AdminTest.CF_DEFAULT), Bytes.toBytes("e"), Bytes.toBytes("value-124-e"));
-        put2.setTTL(5000);
+        put2.setTTL(5000);  //hbase命令是在创建表格  对列设置，这里支持行啊？
         puts.add(put2);
 
         Put put3 = new Put(Bytes.toBytes("row-128"));

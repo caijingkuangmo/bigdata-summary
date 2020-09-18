@@ -27,7 +27,7 @@ public class PageFilterTest {
             Table table = connection.getTable(TableName.valueOf(AdminTest.TABLE_NAME));
 
             Scan scan = new Scan();
-            PageFilter pageFilter = new PageFilter(2); //表示返回两行数据
+            PageFilter pageFilter = new PageFilter(2); //表示返回两行数据，再配合StartRow来做
             scan.setFilter(pageFilter);
 
             ResultScanner rs = table.getScanner(scan);

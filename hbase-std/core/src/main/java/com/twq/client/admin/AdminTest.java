@@ -61,6 +61,7 @@ public class AdminTest {
     }
     public static void main(String... args) throws IOException {
         Configuration config = HBaseConfiguration.create();
+        //需要增加下面两个配置文件，放在resources下，程序默认会去加载，代码可以不用写
         //Add any necessary configuration files (hbase-site.xml, core-site.xml)
         //config.addResource(new Path("src/main/resources/hbase-site.xml"));
         //config.addResource(new Path("src/main/resources/core-site.xml"));

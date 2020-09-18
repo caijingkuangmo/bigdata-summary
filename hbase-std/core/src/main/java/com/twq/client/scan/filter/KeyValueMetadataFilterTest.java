@@ -55,7 +55,7 @@ public class KeyValueMetadataFilterTest {
             scan.addFamily(Bytes.toBytes("f1"));//option
             byte[] startColumn = Bytes.toBytes("bbbb");
             byte[] endColumn = Bytes.toBytes("ffff");
-            Filter columnRangeFilter = new ColumnRangeFilter(startColumn, true, endColumn, true);
+            Filter columnRangeFilter = new ColumnRangeFilter(startColumn, true, endColumn, true);  //两个true表示包含边界值
             scan.setFilter(columnRangeFilter);
 
             ResultScanner rs = table.getScanner(scan);

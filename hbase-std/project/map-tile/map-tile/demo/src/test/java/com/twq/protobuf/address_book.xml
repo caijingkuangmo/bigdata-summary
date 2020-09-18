@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GBK" ?>
+<address_book>
+    <person>
+        <name>jeffy</name>
+        <id>1</id>
+        <emailAddress>3444@qq.com</emailAddress>
+        <phoneNumber>
+            <number>12342345555</number>
+            <phoneType>MOBILE</phoneType>
+        </phoneNumber>
+    </person>
+    <person>
+        <name>jeffy-2</name>
+        <id>3</id>
+        <emailAddress>34222244@qq.com</emailAddress>
+        <phoneNumber>
+            <number>234223422</number>
+            <phoneType>HOME</phoneType>
+        </phoneNumber>
+    </person>
+</address_book>

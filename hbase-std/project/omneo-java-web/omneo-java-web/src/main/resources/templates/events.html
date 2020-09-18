@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>Omneo Tech</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+Welcome to Omneo!!
+
+<div>
+    <form id="iform" th:action="@{/omneo/events}" th:method="post"  >
+
+    <table border="1">
+        <tr>
+            <th>事件类型</th>
+            <th>零部件名称</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td><input type="text" name="eventType" id="eventType" value="ALERT"  th:value="*{eventType}" /></td>
+            <td><input type="text" name="partName" id="partName" value="NE-114"  th:value="*{partName}"/></td>
+            <td><input type="submit" value="查询"/></td>
+        </tr>
+    </table>
+</form>
+</div>
+
+
+<table border="1">
+    <tr>
+        <th>传感器Id</th>
+        <th>eventId</th>
+        <th>事件类型</th>
+        <th>零部件名称</th>
+        <th>零部件编号</th>
+        <th>传感器版本</th>
+        <th>零部件的负荷</th>
+    </tr>
+    <tr th:each="event : ${events}">
+        <td th:text="${event.id}">Onions</td>
+        <td th:text="${event.eventId}">2.41</td>
+        <td th:text="${event.eventType}">yes</td>
+        <td th:text="${event.partName}">2.41</td>
+        <td th:text="${event.partNumber}">2.41</td>
+        <td th:text="${event.version}">2.41</td>
+        <td th:text="${event.payload}">2.41</td>
+    </tr>
+</table>
+</body>
+</html>

@@ -53,7 +53,7 @@ private[spark] object HBaseConnectionCache extends Logging {
     }
   }
 
-  def performHousekeeping(forceClean: Boolean) = {
+  def  performHousekeeping(forceClean: Boolean) = {
     val tsNow: Long = System.currentTimeMillis()
     connectionMap.synchronized {
       connectionMap.foreach {
@@ -100,7 +100,7 @@ private[spark] object HBaseConnectionCache extends Logging {
   }
 }
 
-private[hbase] case class SmartConnection (connection: Connection, var refCount: Int = 0, var timestamp: Long = 0) {
+private[hbase] case class  SmartConnection (connection: Connection, var refCount: Int = 0, var timestamp: Long = 0) {
   def getTable(tableName: TableName): Table = connection.getTable(tableName)
   def isClosed: Boolean = connection.isClosed
   def getAdmin: Admin = connection.getAdmin
