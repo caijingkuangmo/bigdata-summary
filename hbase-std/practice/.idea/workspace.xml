@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b87e3b4a-27bb-40c4-98d8-d2c400838a4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../core/src/main/java/com/twq/client/PutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core/src/main/java/com/twq/client/PutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../core/src/main/java/com/twq/client/admin/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core/src/main/java/com/twq/client/admin/AdminTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../core/src/main/java/com/twq/client/scan/filter/KeyValueMetadataFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core/src/main/java/com/twq/client/scan/filter/KeyValueMetadataFilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../core/src/main/java/com/twq/client/scan/filter/PageFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core/src/main/java/com/twq/client/scan/filter/PageFilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/twq/hbase/spark/HBaseConnectionCache.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/twq/hbase/spark/HBaseConnectionCache.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spark-streaming-study/spark-streaming-basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spark-streaming-study/spark-streaming-basic/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b87e3b4a-27bb-40c4-98d8-d2c400838a4c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/hbase/spark/streaming/StreamingHbaseTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+            <state relative-caret-position="1221">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding>
                 <element signature="e#39#78#0" expanded="true" />
               </folding>
@@ -42,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/hbase/spark/HBaseContext.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="7953">
               <caret line="255" column="17" selection-start-line="255" selection-start-column="17" selection-end-line="255" selection-end-column="17" />
               <folding>
                 <element signature="e#29#45#0" expanded="true" />
@@ -54,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/twq/hbase/storage/ConvertToHFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="42" column="115" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="115" />
+            <state relative-caret-position="561">
+              <caret line="42" column="115" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="115" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/twq/hbase/storage/Validation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="198">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -75,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/hbase/storage/Spark2SolrIndexer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
+            <state relative-caret-position="891">
               <caret line="33" column="59" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="59" />
             </state>
           </provider>
@@ -484,6 +475,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -564,10 +556,10 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../core" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -608,7 +600,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5005599" side_tool="true" weight="0.21024546" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4994401" visible="true" weight="0.15101388" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4994401" visible="true" weight="0.15261473" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -717,16 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/hbase/spark/streaming/StreamingHbaseTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          <folding>
-            <element signature="e#39#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/twq/hbase/storage/CSVGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -758,10 +740,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../repo/org/apache/hbase/hbase-client/1.2.6/hbase-client-1.2.6.jar!/org/apache/hadoop/hbase/client/Result.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/hbase/spark/streaming/StreamingHbaseTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1221">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/hbase/spark/HBaseContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7953">
+          <caret line="255" column="17" selection-start-line="255" selection-start-column="17" selection-end-line="255" selection-end-column="17" />
+          <folding>
+            <element signature="e#29#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/twq/hbase/storage/ConvertToHFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="42" column="115" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="115" />
+        <state relative-caret-position="561">
+          <caret line="42" column="115" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="115" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -770,31 +779,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/twq/hbase/storage/Validation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../repo/org/apache/hbase/hbase-client/1.2.6/hbase-client-1.2.6.jar!/org/apache/hadoop/hbase/client/Result.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/hbase/spark/HBaseContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="255" column="17" selection-start-line="255" selection-start-column="17" selection-end-line="255" selection-end-column="17" />
-          <folding>
-            <element signature="e#29#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/twq/hbase/storage/Spark2SolrIndexer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
+        <state relative-caret-position="891">
           <caret line="33" column="59" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="59" />
         </state>
       </provider>
