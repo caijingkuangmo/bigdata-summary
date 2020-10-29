@@ -1,0 +1,7 @@
+1.mock测试数据逻辑 src\main\scala\com\twq\topn\MockTopNData.scala
+2.TopN的实现的三种方式：src\main\scala\com\twq\topn\TopN.scala
+    1).两次mapPartition
+    2).mapPartition + PriorityQueue(PriorityQueue讲解：src\main\java\com\twq\local\PriorityQueueTest.java)
+    3).RDD中的top函数(本质上用的就是第二种方式)
+
+3.分组TopN，由于容易造成OOM(Out Of Memory)，所以采用二级聚合：src\main\scala\com\twq\dataskew\TwoPhaseGroupTopN.scala

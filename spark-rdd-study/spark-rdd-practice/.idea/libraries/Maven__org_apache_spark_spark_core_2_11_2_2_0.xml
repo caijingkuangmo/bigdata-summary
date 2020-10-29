@@ -1,0 +1,65 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.spark:spark-core_2.11:2.2.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/" />
+      <root url="file://C:/bigdata/spark-source/spark/common/kvstore/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/common/kvstore/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/common/network-common/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/common/network-common/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/common/network-shuffle/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/common/network-shuffle/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/common/network-yarn/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/common/sketch/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/common/tags/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/common/tags/src/main/scala" />
+      <root url="file://C:/bigdata/spark-source/spark/common/tags/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/common/unsafe/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/common/unsafe/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/core/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/core/src/main/scala" />
+      <root url="file://C:/bigdata/spark-source/spark/core/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/examples/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/external/avro/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/external/avro/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/external/kafka-0-10-sql/src/main/scala" />
+      <root url="file://C:/bigdata/spark-source/spark/external/kafka-0-10/src/main/scala" />
+      <root url="file://C:/bigdata/spark-source/spark/external/kafka-0-10/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/external/kinesis-asl/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/external/kinesis-asl/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/external/spark-ganglia-lgpl/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/graphx/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/graphx/src/main/scala" />
+      <root url="file://C:/bigdata/spark-source/spark/launcher/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/launcher/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/mllib/src/main/scala" />
+      <root url="file://C:/bigdata/spark-source/spark/mllib/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/resource-managers/mesos/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/resource-managers/yarn/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/catalyst/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/catalyst/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/core/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/core/src/main/scala" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/core/src/test/gen-java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/core/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/core/v1.2/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/core/v2.3/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/hive-thriftserver/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/hive-thriftserver/v1.2/src/gen/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/hive-thriftserver/v1.2/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/hive-thriftserver/v2.3/src/gen/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/hive-thriftserver/v2.3/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/hive/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/hive/src/main/scala" />
+      <root url="file://C:/bigdata/spark-source/spark/sql/hive/src/test/java" />
+      <root url="file://C:/bigdata/spark-source/spark/streaming/src/main/java" />
+      <root url="file://C:/bigdata/spark-source/spark/streaming/src/main/scala" />
+      <root url="file://C:/bigdata/spark-source/spark/streaming/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

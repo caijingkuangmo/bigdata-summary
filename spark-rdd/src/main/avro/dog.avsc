@@ -1,9 +1,0 @@
-{"namespace": "com.twq.spark.rdd",
- "type": "record",
- "name": "Dog",
- "fields": [
-     {"name": "name", "type": "string"},
-     {"name": "favorite_number",  "type": ["int", "null"]},
-     {"name": "favorite_color", "type": ["string", "null"]}
- ]
-}
